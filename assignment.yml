@@ -1,0 +1,7 @@
+---
+- name: ansibleprac
+  hosts: webserver
+  become: yes
+  gather_facts: false
+  roles:
+    - role_1
